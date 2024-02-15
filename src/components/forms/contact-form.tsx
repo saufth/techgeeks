@@ -190,12 +190,12 @@ export default function ContactForm () {
           >
             {isPending
               ? (
-                <span className='flex items-center gap-x-3'>
+                <span className='flex items-center gap-x-2'>
                   Enviando <Icons.Spinner className='h-4 w-4' aria-hidden='true' />
                 </span>)
               : (
-                <span className='flex items-center gap-x-3'>
-                  Enviar <Icons.PaperPlane className='h-4 w-4' aria-hidden='true' />
+                <span className='flex items-center gap-x-2'>
+                  Enviar <Icons.PaperPlane className='h-3.5 w-3.5' aria-hidden='true' />
                 </span>)}
           </Button>
         </div>
