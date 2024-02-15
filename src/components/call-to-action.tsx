@@ -32,7 +32,7 @@ const CallToAbout = React.forwardRef<HTMLAnchorElement, Omit<LinkProps, 'href' |
     return (
       <Link
         href={aboutLink.href}
-        className={cn('flex items-center gap-x-1 bg-secondary/70 backdrop-filter backdrop-blur-lg backdrop-saturate-150', className)}
+        className={cn('flex items-center gap-x-1 bg-secondary/80 backdrop-filter backdrop-blur-lg backdrop-saturate-150', className)}
         size={size}
         variant={variant}
         ref={ref}
@@ -53,7 +53,7 @@ const CallToServices = React.forwardRef<HTMLAnchorElement, Omit<LinkProps, 'href
     return (
       <Link
         href={servicesLink.href}
-        className={cn('flex items-center gap-x-1 bg-secondary/70 backdrop-filter backdrop-blur-lg backdrop-saturate-150', className)}
+        className={cn('flex items-center gap-x-1 bg-secondary/80 backdrop-filter backdrop-blur-lg backdrop-saturate-150', className)}
         size={size}
         variant={variant}
         ref={ref}
@@ -74,7 +74,7 @@ const CallToPurpose = React.forwardRef<HTMLAnchorElement, Omit<LinkProps, 'href'
     return (
       <Link
         href={purposeLink.href}
-        className={cn('flex items-center gap-x-1 bg-secondary/70 backdrop-filter backdrop-blur-lg backdrop-saturate-150', className)}
+        className={cn('flex items-center gap-x-1 bg-secondary/80 backdrop-filter backdrop-blur-lg backdrop-saturate-150', className)}
         size={size}
         variant={variant}
         ref={ref}

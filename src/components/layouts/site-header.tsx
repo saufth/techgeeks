@@ -24,8 +24,8 @@ export default function SiteHeader () {
         <nav className='relative' aria-label={`${siteConfig.name} Directory`}>
           <div className='container'>
             <div className='w-full h-[60px] lg:h-20 flex justify-between items-center'>
-              <NextLink className='flex gap-x-2 lg:gap-x-3 items-center' href='/' onClick={closeMenu}>
-                <div className='w-8 h-8 bg-gradient rounded-[2px] grid place-content-center'>
+              <NextLink className='flex gap-x-3 items-center' href='/' onClick={closeMenu}>
+                <div className='w-6 h-6 bg-gradient rounded-[2px] grid place-content-center'>
                   <Icons.Logomark className='w-full h-auto fill-white' />
                   <span className='sr-only'>{siteConfig.name} home</span>
                 </div>
@@ -35,11 +35,11 @@ export default function SiteHeader () {
                 <div className='h-full hidden lg:flex items-center gap-x-5'>
                   <ul className='h-full flex items-center gap-x-5'>
                     {siteNav.map((navItem, key) => (
-                      <li key={key} className='last:hidden flex items-center gap-x-0.5'>
-                        <Link href={navItem.href} className='hidden lg:flex px-1 font-medium text-secondary-foreground' variant='link'>
+                      <li key={key} className='last:hidden'>
+                        <Link href={navItem.href} className='hidden lg:flex items-center gap-x-1 font-medium text-secondary-foreground' variant='link'>
                           {navItem.title}
+                          <Icons.ArrowUpRight className='btn-icon w-4 h-4 fill-accent-foreground' />
                         </Link>
-                        <Icons.ArrowUpRight className='btn-icon w-4 h-4 fill-accent-foreground' />
                       </li>
                     ))}
                   </ul>
@@ -60,7 +60,7 @@ export default function SiteHeader () {
       </header>
       <div
         className={cn(
-          'w-full h-0 bg-black/90 backdrop-filter backdrop-blur-md fixed flex flex-col justify-between top-0 left-0 z-30 overflow-hidden transition-[height] duration-500 px-2',
+          'w-full h-0 bg-black/90 backdrop-filter backdrop-blur-md fixed flex flex-col justify-between top-0 left-0 z-30 overflow-hidden transition-[height] duration-500',
           isMenuOpen && 'h-[100dvh]'
         )}
       >

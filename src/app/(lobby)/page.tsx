@@ -10,7 +10,7 @@ import { filosophy } from '@/config/organization'
 export default function IndexPage () {
   return (
     <>
-      <section>
+      <section className='-mt-[60px] lg:-mt-20'>
         <div className='full-bleed-container h-[100dvh] min-h-[500xp] lg:min-h-[600px] max-h-[1000px] relative z-10 flex flex-col justify-center bg-primary border-b 2xl:border-b-0'>
           <div className='relative z-10'>
             <div className='max-w-xs md:max-w-5xl mx-auto text-center px-gutter'>
@@ -51,8 +51,8 @@ export default function IndexPage () {
       <section id='nosotros' className='border-t'>
         <div className='container-sm'>
           <div className='cols-container py-spacing-6'>
-            <div className='w-6-cols md:w-4-cols lg:w-6-col relative'>
-              <div className='sm:pr-9 xl:pr-0'>
+            <div className='w-6-cols md:w-4-cols lg:w-5-cols'>
+              <div className='sm:pr-12'>
                 <h3 className='f-heading-1 font-header text-gradient'>
                   Nuestra filosofía
                 </h3>
@@ -71,7 +71,7 @@ export default function IndexPage () {
               </div>
               <CallToAbout className='mt-spacing-4' />
             </div>
-            <div className='w-6-cols md:w-4-cols lg:w-6-cols mt-10 md:mt-0'>
+            <div className='w-6-cols md:w-4-cols lg:w-7-cols mt-10 md:mt-00'>
               <Image
                 src='/images/home-filosophy.webp'
                 alt=''
