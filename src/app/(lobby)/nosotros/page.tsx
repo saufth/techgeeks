@@ -22,7 +22,7 @@ export default function AboutPage () {
                 Lorem ipsum dolor sit amet
               </h1>
               <p className='f-subhead-1 font-medium mt-spacing-4 text-white'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum error ipsa illo.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum error.
               </p>
               <div className='w-full justify-center mt-spacing-5 flex flex-col md:flex-row gap-4'>
                 <CallToAction />
