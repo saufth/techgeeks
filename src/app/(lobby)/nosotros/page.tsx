@@ -17,11 +17,11 @@ export default function AboutPage () {
       <section className='-mt-[60px] lg:-mt-20'>
         <div className='full-bleed-container h-[100dvh] min-h-[500xp] lg:min-h-[600px] max-h-[1000px] relative z-10 flex flex-col justify-center bg-primary border-b 2xl:border-b-0'>
           <div className='relative z-10'>
-            <div className='max-w-xs md:max-w-5xl mx-auto text-center px-gutter'>
+            <div className='max-w-xs md:max-w-4xl mx-auto text-center px-gutter'>
               <h1 className='f-display-1 font-header text-balance max-w-[322px] xs:max-w-none text-gradient'>
                 Lorem ipsum dolor sit amet
               </h1>
-              <p className='f-subhead-1 font-medium mt-spacing-4 text-white'>
+              <p className='f-subhead-1 font-medium mt-spacing-4 text-white text-balance'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum error.
               </p>
               <div className='w-full justify-center mt-spacing-5 flex flex-col md:flex-row gap-4'>
@@ -59,13 +59,13 @@ export default function AboutPage () {
               Nuestra historia
             </h2>
           </div>
-          {history.map((historyItem, key) => (
-            <div className='space-y-4' key={key}>
-              <p className='f-subhead-2 text-muted-foreground'>
+          <div className='space-y-gutter'>
+            {history.map((historyItem, key) => (
+              <p className='f-subhead-2 text-muted-foreground' key={key}>
                 {historyItem}
               </p>
-            </div>
-          ))}
+            ))}
+          </div>
           <div className='w-full justify-center pt-spacing-4 flex flex-col sm:flex-row gap-4'>
             <CallToAction />
           </div>

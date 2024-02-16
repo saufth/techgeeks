@@ -29,13 +29,13 @@ export default function IndexPage () {
           <BackgroundVideo src='/video/home-hero.mp4' />
         </div>
       </section>
-      <section className='py-spacing-6 overflow-hidden'>
+      <section className='py-spacing-7 overflow-hidden'>
         <div className='container-sm'>
           <div className='max-w-7xl mx-auto text-center'>
-            <h2 className='f-display-3 font-header text-gradient md:pr-9 lg:pr-11'>
+            <h2 className='f-heading-1 font-header text-gradient md:pr-9 lg:pr-11'>
               Nuestras soluciones
             </h2>
-            <p className='f-subhead-1 text-muted-foreground text-balance mt-spacing-3'>
+            <p className='f-subhead-2 text-muted-foreground text-balance mt-spacing-3'>
               Utilizamos enfoques analíticos y creativos para identificar soluciones
               innovadoras que impulsen el crecimiento, mejoren la eficiencia
               operativa y aumenten la rentabilidad de tu empresa.
@@ -50,7 +50,7 @@ export default function IndexPage () {
       </section>
       <section id='nosotros' className='border-t'>
         <div className='container-sm'>
-          <div className='cols-container py-spacing-6'>
+          <div className='cols-container pb-gutter pt-spacing-7 md:py-spacing-7'>
             <div className='w-6-cols md:w-4-cols lg:w-5-cols'>
               <div className='sm:pr-12'>
                 <h3 className='f-heading-1 font-header text-gradient'>
@@ -62,7 +62,7 @@ export default function IndexPage () {
                       <h4 className='f-subhead-2 text-gradient font-semibold'>
                         {filosophyItem.title}
                       </h4>
-                      <p className='mt-spacing-2 text-muted-foreground'>
+                      <p className='mt-spacing-2 text-muted-foreground text-balance'>
                         {filosophyItem.description}
                       </p>
                     </article>
@@ -71,7 +71,7 @@ export default function IndexPage () {
               </div>
               <CallToAbout className='mt-spacing-4' />
             </div>
-            <div className='w-6-cols md:w-4-cols lg:w-7-cols mt-10 md:mt-00'>
+            <div className='w-6-cols md:w-4-cols lg:w-7-cols mt-gutter md:mt-0'>
               <Image
                 src='/images/home-filosophy.webp'
                 alt=''
