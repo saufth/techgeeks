@@ -3,11 +3,11 @@ import { type Heading } from '@/types'
 export const filosophy: Heading[] = [
   {
     title: 'Nuestra misión',
-    description: 'En TERRAT, nos dedicamos a transformar sueños en realidades, ofreciendo soluciones integrales en el sector inmobiliario y de la construcción.'
+    description: 'Nos dedicamos a impulsar y mejorar la vida de nuestros clientes y de sus empresas, a través de soluciones tecnológicas integrales y personalizadas.'
   },
   {
     title: 'Nuestra visión',
-    description: 'Nos vemos como contribuyendo a un mundo donde la sostenibilidad, la tecnología y el diseño converjan para crear espacios que trasciendan generaciones.'
+    description: 'Ser un referente global, anticipándonos al futuro tecnológico, diseñando soluciones a la medida de cada cliente, generando así un impacto autosustentable, duradero y de valor.'
   }
 ]
 
