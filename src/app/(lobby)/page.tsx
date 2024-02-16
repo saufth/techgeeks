@@ -36,9 +36,8 @@ export default function IndexPage () {
               Nuestras soluciones
             </h2>
             <p className='f-subhead-2 text-muted-foreground text-balance mt-spacing-3'>
-              Utilizamos enfoques analíticos y creativos para identificar soluciones
-              innovadoras que impulsen el crecimiento, mejoren la eficiencia
-              operativa y aumenten la rentabilidad de tu empresa.
+              Utilizamos enfoques analíticos y creativos para identificar <b>soluciones innovadoras</b> que impulsen
+              el crecimiento, <b>mejoren la eficiencia</b> operativa y <b>aumenten la rentabilidad</b> de tu empresa.
             </p>
           </div>
           <div className='cols-container gap-y-gutter mt-spacing-6'>
