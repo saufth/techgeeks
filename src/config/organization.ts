@@ -30,7 +30,7 @@ export const values: Heading[] = [
   },
   {
     title: 'Colaboración',
-    description: 'Creemos que el éxito se logra mejor trabajando en equipo. Nos esforzamos por '
+    description: 'Creemos que el éxito se logra mejor trabajando en equipo. Nos esforzamos por fomentar una cultura de cooperación, tanto internamente, como con nuestros clientes y socios.'
   }
 ]
 
