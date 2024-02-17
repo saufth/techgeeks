@@ -25,7 +25,7 @@ export const services: Item[] = [
   },
   {
     title: 'Instalación y mantenimiento de redes',
-    description: 'Diseñamos e implementamos redes acorde a las necesidades de nuestros clientes.Nuestro equipo de expertos está capacitado para trabajar con una variedad de tecnologías de red, garantizando una conectividad ininterrumpida y segura, dando mantenimiento y actualizaciones constantes para asegurar que tus redes funcionen de manera óptima en todo momento.',
+    description: 'Diseñamos e implementamos redes acorde a las necesidades de nuestros clientes. Nuestro equipo de expertos está capacitado para trabajar con una variedad de tecnologías de red, garantizando una conectividad ininterrumpida y segura, dando mantenimiento y actualizaciones constantes para asegurar que tus redes funcionen de manera óptima en todo momento.',
     slug: '/desarrolladora',
     image: {
       src: '/images/service3.webp',
