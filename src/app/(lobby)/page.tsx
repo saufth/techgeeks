@@ -52,15 +52,15 @@ export default function IndexPage () {
           <div className='cols-container pb-gutter pt-spacing-7 md:py-spacing-7'>
             <div className='w-6-cols md:w-4-cols lg:w-5-cols'>
               <div className='sm:pr-12'>
-                <h3 className='f-heading-1 font-header text-gradient'>
+                <h2 className='f-heading-1 font-header text-gradient'>
                   Nuestra filosofía
-                </h3>
+                </h2>
                 <div>
                   {filosophy.map((filosophyItem, key) => (
                     <article className='mt-spacing-4' key={key}>
-                      <h4 className='f-subhead-2 text-gradient font-semibold'>
+                      <h3 className='f-subhead-2 text-gradient font-semibold'>
                         {filosophyItem.title}
-                      </h4>
+                      </h3>
                       <p className='mt-spacing-2 text-muted-foreground text-balance'>
                         {filosophyItem.description}
                       </p>
