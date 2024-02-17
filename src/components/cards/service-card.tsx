@@ -41,8 +41,10 @@ export function ServiceCard ({ card, className, ...props }: CardDataProps) {
               </span>
             </Badge>
           )}
-          <h3 className='f-heading-3 text-gradient font-header'>
-            {card.title}
+          <h3>
+            <span className='f-heading-3 text-gradient font-header'>
+              {card.title}
+            </span>
           </h3>
           <div className='mt-spacing-3'>
             {typeof card.description === 'string'

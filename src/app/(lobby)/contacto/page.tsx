@@ -14,8 +14,10 @@ export default function ContactPage () {
     <>
       <div className='pt-spacing-6 pb-spacing-7'>
         <div className='container'>
-          <h1 className='f-display-3 font-header text-gradient text-balance'>
-            Ponte en contacto con nosotros
+          <h1>
+            <span className='f-display-3 font-header text-gradient text-balance'>
+              Ponte en contacto con nosotros
+            </span>
           </h1>
           <div className='cols-container mt-spacing-5'>
             <div className='w-full lg:w-5-cols relative mt-6 lg:mt-0 order-2 lg:order-1'>

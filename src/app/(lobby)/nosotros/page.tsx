@@ -18,8 +18,10 @@ export default function AboutPage () {
         <div className='full-bleed-container h-[100dvh] min-h-[500xp] lg:min-h-[600px] max-h-[1000px] relative z-10 flex flex-col justify-center bg-primary border-b 2xl:border-b-0'>
           <div className='relative z-10'>
             <div className='max-w-xs md:max-w-4xl mx-auto text-center px-gutter'>
-              <h1 className='f-display-1 font-header text-balance max-w-[322px] xs:max-w-none text-gradient'>
-                Tu socio en seguridad digital
+              <h1 className='max-w-[322px] xs:max-w-none'>
+                <span className='f-display-1 font-header text-balance text-gradient'>
+                  Tu socio en seguridad digital
+                </span>
               </h1>
               <p className='f-subhead-1 font-medium mt-spacing-4 text-white text-balance'>
                 Combinamos tecnología y experiencia en seguridad para proteger lo que más te importa: tu privacidad, tus datos y tu tranquilidad.
@@ -55,8 +57,10 @@ export default function AboutPage () {
         </section>
         <section className='container-sm py-spacing-7 space-y-gutter'>
           <div>
-            <h2 className='f-display-3 font-header text-gradient'>
-              Nuestra historia
+            <h2>
+              <span className='f-display-3 font-header text-gradient'>
+                Nuestra historia
+              </span>
             </h2>
           </div>
           <div className='space-y-gutter'>

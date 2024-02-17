@@ -32,8 +32,10 @@ export default function IndexPage () {
       <section className='py-spacing-7 overflow-hidden'>
         <div className='container-sm'>
           <div className='max-w-7xl mx-auto text-center'>
-            <h2 className='f-heading-1 font-header text-gradient md:pr-9 lg:pr-11'>
-              Nuestras soluciones
+            <h2 className='md:pr-9 lg:pr-11'>
+              <span className='f-heading-1 font-header text-gradient'>
+                Nuestras soluciones
+              </span>
             </h2>
             <p className='f-subhead-2 text-muted-foreground text-balance mt-spacing-3'>
               Utilizamos enfoques analíticos y creativos para identificar <b>soluciones innovadoras</b> que impulsen
@@ -52,14 +54,18 @@ export default function IndexPage () {
           <div className='cols-container pb-gutter pt-spacing-7 md:py-spacing-7'>
             <div className='w-6-cols md:w-4-cols lg:w-5-cols'>
               <div className='sm:pr-12'>
-                <h2 className='f-heading-1 font-header text-gradient'>
-                  Nuestra filosofía
+                <h2>
+                  <span className='f-heading-1 font-header text-gradient'>
+                    Nuestra filosofía
+                  </span>
                 </h2>
                 <div>
                   {filosophy.map((filosophyItem, key) => (
                     <article className='mt-spacing-4' key={key}>
-                      <h3 className='f-subhead-2 text-gradient font-semibold'>
-                        {filosophyItem.title}
+                      <h3>
+                        <span className='f-subhead-2 text-gradient font-semibold'>
+                          {filosophyItem.title}
+                        </span>
                       </h3>
                       <p className='mt-spacing-2 text-muted-foreground text-balance'>
                         {filosophyItem.description}
