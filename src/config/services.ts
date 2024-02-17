@@ -7,7 +7,7 @@ export const services: Item[] = [
     slug: '/inmobiliaria',
     image: {
       src: '/images/service1.webp',
-      alt: 'Patio de un condominio con edificios residenciales',
+      alt: 'Camara de vijilancia de alta calidad en lo alto de un poste frente a un edificio de oficinas corporativas',
       width: 2840,
       height: 2840
     }
@@ -18,7 +18,7 @@ export const services: Item[] = [
     slug: '/desarrolladora',
     image: {
       src: '/images/service2.webp',
-      alt: 'Grúas torre en obra de construcción de edificos de apartamentos residenciales altos',
+      alt: 'Sistema de acceso inteligente con lector de huella digital y tarjeta de proximidad en puerta de acceso a edificio de oficinas corporativas',
       width: 2840,
       height: 2840
     }
@@ -29,7 +29,7 @@ export const services: Item[] = [
     slug: '/desarrolladora',
     image: {
       src: '/images/service3.webp',
-      alt: 'Grúas torre en obra de construcción de edificos de apartamentos residenciales altos',
+      alt: 'Cables de red conectados a la parte trasera de un servidor de computadoras con luces neon',
       width: 2840,
       height: 2840
     }
@@ -40,7 +40,7 @@ export const services: Item[] = [
     slug: '/construccion',
     image: {
       src: '/images/service4.webp',
-      alt: 'Excavadora pesada en obra de construcción',
+      alt: 'Sistema de alarma de incendios con sensores de humo y temperatura en el techo de una oficina corporativa',
       width: 2840,
       height: 2840
     }

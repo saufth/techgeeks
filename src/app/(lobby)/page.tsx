@@ -73,7 +73,7 @@ export default function IndexPage () {
             <div className='w-6-cols md:w-4-cols lg:w-7-cols mt-gutter md:mt-0'>
               <Image
                 src='/images/home-filosophy.webp'
-                alt=''
+                alt='Parte trasera de un servidor de computadora con cables conectados y luces neón en la oscuridad.'
                 width={2840}
                 height={2840}
                 sizes='(max-width: 744px) 100vw, (max-width: 1280px) 100vw, (max-width: 1440px) 100vw, 100vw'

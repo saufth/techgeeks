@@ -24,7 +24,7 @@ export default function ContactPage () {
             <div className='w-full lg:w-7-cols order-1 lg:order-2 bg-secondary'>
               <Image
                 src='/images/contact-hero.webp'
-                alt='Dos hombres de negocios discutiendo en una oficina moderna'
+                alt='Hombre joven con audículares de protección auditiva trabajando con cables de red en un servidor de computadoras.'
                 width={2840}
                 height={2840}
                 sizes='(max-width: 744px) 100vw, (max-width: 1280px) 100vw, (max-width: 1440px) 100vw, 100vw'
