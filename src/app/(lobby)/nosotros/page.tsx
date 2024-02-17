@@ -19,10 +19,10 @@ export default function AboutPage () {
           <div className='relative z-10'>
             <div className='max-w-xs md:max-w-4xl mx-auto text-center px-gutter'>
               <h1 className='f-display-1 font-header text-balance max-w-[322px] xs:max-w-none text-gradient'>
-                Lorem ipsum dolor sit amet
+                Tu socio en seguridad digital
               </h1>
               <p className='f-subhead-1 font-medium mt-spacing-4 text-white text-balance'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit dolorum error.
+                Combinamos tecnología y experiencia en seguridad para proteger lo que más te importa: tu privacidad, tus datos y tu tranquilidad.
               </p>
               <div className='w-full justify-center mt-spacing-5 flex flex-col md:flex-row gap-4'>
                 <CallToAction />
@@ -41,7 +41,7 @@ export default function AboutPage () {
               </span>
             </h2>
             <p className='f-subhead-2 text-muted-foreground text-balance mt-spacing-3'>
-              Los valores de TERRAT están integrados y se ven reflejados en todas sus acciones y decisiones.
+              Los valores definen nuestra identidad, guían nuestras acciones y sirven como pilar para forjar relaciones duraderas con clientes, asociados y colaboradores.
             </p>
           </div>
           <div className='cols-container gap-y-gutter mt-spacing-6'>
